@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,100;1,400;1,600;1,900&display=swap');
+* {
+   margin: 0; 
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+}
+
+.menu {
+    background-color: aqua;
+}
+.logo {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    right:0;
+    background: linear-gradient(217deg, rgb(255, 9, 9), rgba(255, 255, 255, 0.363) 70.71%),
+    linear-gradient(127deg, rgb(8, 53, 255), rgb(9, 255, 0) 70.71%),
+    linear-gradient(336deg, rgb(0, 0, 255), rgba(245, 16, 16, 0.842) 70.71%);
+    width: 100vw;
+}
+.navbar__item {
+    padding: 13px;
+    display: inline-block; 
+}
+.navbar__item a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.scroll {
+    display: inline-block;
+    z-index: -1;
+    height: 14000px;
+    width: 100vw;
+}
+div{
+    display: inline-block;
+}
+.divisor {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 500px;
+}
+.box1 {
+    position: sticky;
+    background-color: rgb(47, 0, 255);
+    width: 25%;
+    height: 100px;
+    top:51px;
+    left: 0;
+}
+.box2 {
+    position: sticky;
+    background-color: rgb(255, 60, 0);
+    width: 25%;
+    height: 100px;
+    top:51px;
+    left:25%;
+}
+.box3 {
+    position: sticky;
+    background-color: rgb(255, 251, 0);
+    width: 25%;
+    height: 100px;
+    top:51px;
+    left:50%;
+}
+.box4 {
+    position: sticky;
+    background-color: rgba(0, 255, 13, 0.788);
+    width: 25%;
+    height: 100px;
+    top:51px;
+    left:75%;
+}
+.box5 {
+    position: sticky;
+    background-color: #00c3ff;
+    width: 100%;
+    height: 100px;
+    top:151px;
+    left: 0;
+}
+.box6 {
+    position: sticky;
+    background-color: #ff002b;
+    width: 33%;
+    height: 100px;
+    top:251px;
+    left:0;
+}
+.box7 {
+    position: sticky;
+    background-color: rgb(0, 255, 136);
+    width: 25%;
+    height: 100px;
+    top:251px;
+    left:33%;
+}
+.box8 {
+    position: sticky;
+    background-color: #F24C00;
+    width: 42%;
+    height: 100px;
+    top:251px;
+    left:58%;
+}
+.box9 {
+    position: sticky;
+    background-color: #ff0095;
+    width: 42%;
+    height: 100px;
+    top:351px;
+    left:15%;
+}
+.box10 {
+    position: sticky;
+    background-color: #ffe605;
+    width: 33%;
+    height: 100px;
+    top:351px;
+    left:57%;
+}
+.box11 {
+    position: sticky;
+    background-color: #6505ff;
+    width: 15%;
+    height: 100px;
+    top:351px;
+    left:0;
+}
+.box12 {
+    position: sticky;
+    background-color: #c505ff;
+    width: 10%;
+    height: 100px;
+    top:351px;
+    left:90%;
+}
+.box13 {
+    position: sticky;
+    background-color: #05fff3;
+    width: 30%;
+    height: 100px;
+    top:451px;
+    left:36%;
+}
+.box14 {
+    position: sticky;
+    background-color: #05ff12;
+    width: 33%;
+    height: 100px;
+    top:451px;
+    left:3%;
+}
+.box15 {
+    position: sticky;
+    background-color: #ff0062;
+    width: 34%;
+    height: 100px;
+    top:451px;
+    left:66%;
+}
+.box16 {
+    position: sticky;
+    background-color: #0400ff;
+    width: 42%;
+    height: 100px;
+    top:551px;
+    left:40%;
+}
+.box17 {
+    position: sticky;
+    background-color: #ff0000;
+    width: 40%;
+    height: 100px;
+    top:551px;
+    left:0;
+}
+.box18 {
+    position: sticky;
+    background-color: #ff6905;
+    width: 3%;
+    height: 100px;
+    top:451px;
+    left:0;
+}
+.box19 {
+    position: sticky;
+    background: rgb(177, 4, 168);
+    width: 18%;
+    height: 100px;
+    top:551px;
+    left:82%;
+}
+.ask {
+    position: sticky;
+    width: 100vw;
+    height: 400px;
+    top:551px;
+    background: linear-gradient(217deg, rgb(255, 251, 9), rgba(255, 255, 255, 0.363) 70.71%),
+    linear-gradient(127deg, rgb(8, 53, 255), rgb(9, 255, 0) 70.71%),
+    linear-gradient(336deg, rgb(0, 0, 255), rgba(245, 16, 16, 0.842) 70.71%);
+    text-align: center;
+    padding-top: 20px;
+}
+button {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    background: linear-gradient(217deg, rgb(255, 9, 9), rgba(207, 192, 192, 0.082) 70.71%),
+    linear-gradient(127deg, rgb(8, 53, 255), rgb(12, 255, 4) 70.71%),
+    linear-gradient(336deg, rgb(0, 0, 255), rgb(245, 16, 16) 70.71%);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+    
+}
+
+
+
+
+
